@@ -37,23 +37,26 @@
         <div class="mood-container">
             <h2 class="mood-title">Choose Your Travel Mood</h2>
             <div class="mood-selector-buttons">
-                <button class="mood-button" id="Excited">Excited</button>
-                <button class="mood-button" id="Relaxed">Relaxed</button>
-                <button class="mood-button" id="Adventurous">Adventurous</button>
-                <button class="mood-button" id="Nostalgic">Nostalgic</button>
+                <button class="mood-button" id="Excited" aria-pressed="false" type="button">Excited</button>
+                <button class="mood-button" id="Relaxed" aria-pressed="false" type="button">Relaxed</button>
+                <button class="mood-button" id="Adventurous" aria-pressed="false" type="button">Adventurous</button>
+                <button class="mood-button" id="Nostalgic" aria-pressed="false" type="button">Nostalgic</button>
             </div>
-            <audio id="mood-audio" class="mood-audio">
-                <source src="sounds/music1.mp3" type="audio/mpeg">
-            </audio>
-            <audio id="mood-audio2" class="mood-audio">
-                <source src="sounds/music2.mp3" type="audio/mpeg">
-            </audio>
-             <audio id="mood-audio3" class="mood-audio">
-                <source src="sounds/music3.mp3" type="audio/mpeg">
-            </audio>
-             <audio id="mood-audio4" class="mood-audio">
-                <source src="sounds/music4.mp3" type="audio/mpeg">
-            </audio>
+           <audio id="mood-audio" class="mood-audio" preload="none">
+           <source src="sounds/music1.mp3" type="audio/mpeg">
+           </audio>
+
+           <audio id="mood-audio2" class="mood-audio" preload="none">
+           <source src="sounds/music2.mp3" type="audio/mpeg">
+           </audio>
+
+           <audio id="mood-audio3" class="mood-audio" preload="none">
+           <source src="sounds/music3.mp3" type="audio/mpeg">
+           </audio>
+
+           <audio id="mood-audio4" class="mood-audio" preload="none">
+           <source src="sounds/music4.mp3" type="audio/mpeg">
+           </audio>
         </div>
    <div class="destination-all-container">
 
@@ -204,6 +207,6 @@
     <div class="copy-rights">
        <p>© 2026 TravelNest.All Rights Reserved.</p>
     </div>
-<script src="Javascript/mood.js"></script>
+<script src="Javascript/mood.js" defer></script>
 </body>
 </html>

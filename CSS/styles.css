@@ -1475,7 +1475,7 @@ body.mood{
 #destination1{
      background-image:
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url(../Images/Destination-cards/kyoto.jpg);
+        url(../Images/Destination-cards/kyoto.webp);
     background-size:cover;
     background-position: center;
 }
@@ -1483,7 +1483,7 @@ body.mood{
 #destination2{
     background-image:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
-    url(../Images/Destination-cards/rome.jpg);
+    url(../Images/Destination-cards/rome.webp);
     background-size:cover;
     background-position: center;   
 }
@@ -1491,7 +1491,7 @@ body.mood{
 #destination3{
     background-image:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
-    url(../Images/Destination-cards/giza.jpg);
+    url(../Images/Destination-cards/giza.webp);
     background-size:cover;
     background-position: center;   
 }
@@ -1499,21 +1499,21 @@ body.mood{
 #destination4{
     background-image:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
-    url(../Images/Destination-cards/machupicchu.jpg);
+    url(../Images/Destination-cards/machupicchu.webp);
     background-size:cover;
     background-position: center;   
 }
 #destination5{
     background-image:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
-    url(../Images/Destination-cards/sydney.jpg);
+    url(../Images/Destination-cards/sydney.webp);
     background-size:cover;
     background-position: center;   
 }
 #destination6{
     background-image:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
-    url(../Images/Destination-cards/toronto.jpg);
+    url(../Images/Destination-cards/toronto.webp);
     background-size:cover;
     background-position: center;   
 }
