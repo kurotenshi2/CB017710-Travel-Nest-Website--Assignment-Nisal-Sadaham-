@@ -316,6 +316,10 @@ body {
     animation: fadeup 0.4s ease;
 }
 
+.background-slide {
+    background-image: url("Images/destination highlights/bora.webp");
+}
+
 /* ===== DESTINATION IMAGES ===== */
 .destination-image {
     display: flex;
