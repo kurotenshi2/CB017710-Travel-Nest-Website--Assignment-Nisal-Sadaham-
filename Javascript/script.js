@@ -107,22 +107,63 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-   
-    const daily_highlights = [
-        {image1:"Images/destination-of-the-day/Day7/maple.jpg", image2:"Images/destination-of-the-day/Day7/canada-city.jpg",image3:"Images/destination-of-the-day/Day7/toronto.jpg" ,tag:"⚲ Toronto,Canada",details:"Discover Toronto, a vibrant city where cultures from around the world come together along the shores of Lake Ontario. From the breathtaking views atop the CN Tower to lively streets filled with food, art, and entertainment, Toronto offers an unforgettable mix of urban energy and scenic beauty."},
+   const daily_highlights = [
+    {
+        image1:"Images/destination-of-the-day/Day7/maple.webp",
+        image2:"Images/destination-of-the-day/Day7/canada-city.webp",
+        image3:"Images/destination-of-the-day/Day7/toronto.webp",
+        tag:"⚲ Toronto,Canada",
+        details:"Discover Toronto, a vibrant city where cultures from around the world come together along the shores of Lake Ontario. From the breathtaking views atop the CN Tower to lively streets filled with food, art, and entertainment, Toronto offers an unforgettable mix of urban energy and scenic beauty."
+    },
 
-        {image1:"Images/destination-of-the-day/Day1/sakura.jpg" , image2:"Images/destination-of-the-day/Day1/city.jpg", image3:"Images/destination-of-the-day/Day1/sky-tree.jpg",tag:"⚲ Tokyo,Japan",details:"Discover Tokyo, a city where ancient traditions blend seamlessly with cutting-edge innovation. From historic temples to dazzling neon streets, Tokyo offers a unique journey through culture, technology, and unforgettable city life."},
+    {
+        image1:"Images/destination-of-the-day/Day1/sakura.webp",
+        image2:"Images/destination-of-the-day/Day1/city.webp",
+        image3:"Images/destination-of-the-day/Day1/sky-tree.webp",
+        tag:"⚲ Tokyo,Japan",
+        details:"Discover Tokyo, a city where ancient traditions blend seamlessly with cutting-edge innovation. From historic temples to dazzling neon streets, Tokyo offers a unique journey through culture, technology, and unforgettable city life."
+    },
 
-        {image1:"Images/destination-of-the-day/Day2/flower.jpg", image2:"Images/destination-of-the-day/Day2/city.jpg" , image3:"Images/destination-of-the-day/Day2/Lauterbrunnen.jpg",tag:"⚲ Lauterbrunnen,SwizterLand",details:"Discover Lauterbrunnen, a breathtaking alpine valley surrounded by towering cliffs and cascading waterfalls. Nestled in the Swiss Alps, it’s the perfect escape for nature lovers seeking peace, beauty, and unforgettable mountain views."},
+    {
+        image1:"Images/destination-of-the-day/Day2/flower.webp",
+        image2:"Images/destination-of-the-day/Day2/city.webp",
+        image3:"Images/destination-of-the-day/Day2/Lauterbrunnen.webp",
+        tag:"⚲ Lauterbrunnen,SwizterLand",
+        details:"Discover Lauterbrunnen, a breathtaking alpine valley surrounded by towering cliffs and cascading waterfalls. Nestled in the Swiss Alps, it’s the perfect escape for nature lovers seeking peace, beauty, and unforgettable mountain views."
+    },
 
-        {image1:"Images/destination-of-the-day/Day3/flower.jpg",image2:"Images/destination-of-the-day/Day3/city.jpg",image3:"Images/destination-of-the-day/Day3/statue.jpg",tag:"⚲ Bangkok,Tailand", details:"Discover Bangkok, a vibrant city where golden temples meet modern skyscrapers. Known for its lively streets, rich culture, and welcoming atmosphere, Bangkok offers an unforgettable mix of tradition, food, and city energy along the Chao Phraya River."},
+    {
+        image1:"Images/destination-of-the-day/Day3/flower.webp",
+        image2:"Images/destination-of-the-day/Day3/city.webp",
+        image3:"Images/destination-of-the-day/Day3/statue.webp",
+        tag:"⚲ Bangkok,Tailand",
+        details:"Discover Bangkok, a vibrant city where golden temples meet modern skyscrapers. Known for its lively streets, rich culture, and welcoming atmosphere, Bangkok offers an unforgettable mix of tradition, food, and city energy along the Chao Phraya River."
+    },
 
-        {image1:"Images/destination-of-the-day/Day4/rose.jpg",image2:"Images/destination-of-the-day/Day4/city.jpg",image3:"Images/destination-of-the-day/Day4/building.jpg",tag:"⚲ London,England",details:"Discover London, a timeless city where history and modern life blend seamlessly. From royal landmarks and historic streets to world-class culture and entertainment, London offers an unforgettable experience on every visit."},
+    {
+        image1:"Images/destination-of-the-day/Day4/rose.webp",
+        image2:"Images/destination-of-the-day/Day4/city.webp",
+        image3:"Images/destination-of-the-day/Day4/building.webp",
+        tag:"⚲ London,England",
+        details:"Discover London, a timeless city where history and modern life blend seamlessly. From royal landmarks and historic streets to world-class culture and entertainment, London offers an unforgettable experience on every visit."
+    },
 
-        {image1:"Images/destination-of-the-day/Day5/flower.jpg",image2:"Images/destination-of-the-day/Day5/sigiriya.jpg",image3:"Images/destination-of-the-day/Day5/monkeyy.jpg",tag:"⚲ Sigiriya,Sri-Lanka",details:"Explore Sigiriya, a UNESCO World Heritage site and ancient royal citadel carved into a massive rock. Climb through centuries of history, admire stunning frescoes, and enjoy panoramic views over lush green landscapes."},
+    {
+        image1:"Images/destination-of-the-day/Day5/flower.webp",
+        image2:"Images/destination-of-the-day/Day5/sigiriya.webp",
+        image3:"Images/destination-of-the-day/Day5/monkeyy.webp",
+        tag:"⚲ Sigiriya,Sri-Lanka",
+        details:"Explore Sigiriya, a UNESCO World Heritage site and ancient royal citadel carved into a massive rock. Climb through centuries of history, admire stunning frescoes, and enjoy panoramic views over lush green landscapes."
+    },
 
-        {image1:"Images/destination-of-the-day/Day6/flower.jpg" , image2:"Images/destination-of-the-day/Day6/city.jpg",image3:"Images/destination-of-the-day/Day6/palace.jpg" ,tag:"⚲ Seoul,Korea",details:"Explore Seoul, a city full of energy, innovation, and rich heritage. Wander through royal palaces, shop in bustling districts, and experience breathtaking views from the iconic N Seoul Tower while discovering the heartbeat of modern Asia."}
-    ];
+    {
+        image1:"Images/destination-of-the-day/Day6/flower.webp",
+        image2:"Images/destination-of-the-day/Day6/city.webp",
+        image3:"Images/destination-of-the-day/Day6/palace.webp",
+        tag:"⚲ Seoul,Korea",
+        details:"Explore Seoul, a city full of energy, innovation, and rich heritage. Wander through royal palaces, shop in bustling districts, and experience breathtaking views from the iconic N Seoul Tower while discovering the heartbeat of modern Asia."
+    }
+];
 
     const more_info = [
         {best_time:"May – October" ,currency:"Canadian Dollar($)", language:"English", climate:"Cold winters"},
