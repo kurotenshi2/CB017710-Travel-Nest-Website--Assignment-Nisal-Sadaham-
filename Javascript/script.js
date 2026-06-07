@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const info_climate = document.getElementById("info-climate");
 
 
-   
+  // === Destination destails slide ====// 
     const slides = [
         {image: "Images/destination%20highlights/bora.webp", text: "Explore Bora Bora", location: "Bora Bora, French Polynesia", details: "Bora Bora is a small island in the South Pacific, located northwest of Tahiti. It is known for its stunning turquoise waters, overwater bungalows, and vibrant coral reefs. The island offers a range of activities, including snorkeling, scuba diving, and romantic sunset cruises." },
 
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {image: "Images/destination%20highlights/sydney-opera-house.webp", text: "Explore Sydney Opera House", location: "Sydney, Australia", details: "The Sydney Opera House is a multi-venue performing arts centre in Sydney, Australia. It is one of the most famous buildings in the world and offers a range of cultural experiences, including opera, ballet, and concerts." }
     ];
 
-
+//Functions to show the slides//
     let index = 0;
     let sliderId;
 
@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function nextSlide() {
         index = (index + 1) % slides.length;
+        console.log(index)
         showSlide();
     }
 
@@ -231,7 +232,7 @@ newsletterForm.addEventListener("submit", (event) => {
 
         emailinput.value = "";
         
-        // Optional: Also clear the name field if you want
+        
         document.getElementById("field-name").value = "";
 
         setTimeout(() => {

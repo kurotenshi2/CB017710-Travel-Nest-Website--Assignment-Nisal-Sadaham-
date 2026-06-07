@@ -34,7 +34,7 @@ send_msg.addEventListener("click",savemsg)
 
 
 
-
+// == feedback msg  ==/
 function savemsg() {
     const name = document.getElementById("name").value;
     const emailInput = document.getElementById("email");
@@ -75,7 +75,7 @@ function savemsg() {
 
     }
     else {
-        result_submission.textContent = "Invalid Email!";
+        result_submission.textContent = "Invalid Email! or invalid field data";
     }
 }
 const questions = document.querySelectorAll(".faq-question");

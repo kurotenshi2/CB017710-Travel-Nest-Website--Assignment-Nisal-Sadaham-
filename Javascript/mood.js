@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-
+// == music player ===//
 const btnExcited = document.getElementById('Excited');
 const btnRelaxed = document.getElementById('Relaxed');
 const btnAdventurous = document.getElementById('Adventurous');
@@ -70,7 +70,7 @@ btnAdventurous.addEventListener('click', () => {
 btnNostalgic.addEventListener('click', () => {
     playAudio(moodAudio4)});
 
-
+// Trip status saver//
 const travelData =  JSON.parse(localStorage.getItem("travelData")) || {}
 
 document.querySelectorAll(".destination-status").forEach(select => {
