@@ -204,17 +204,28 @@ newsletterForm.addEventListener("submit", (event) => {
     const emailinput = document.getElementById("newsletter-email");
     const error = document.getElementById("newsletter-error");
     const success = document.getElementById("newsletter-success");
+    const field_name = document.getElementById("field-name");
 
     const email = emailinput.value.trim();
 
     error.classList.remove("visible");
     success.classList.remove("visible");
 
-    if (!emailinput.checkValidity()) {
+        if ( field_name.value == ""){
+        error.textContent = "Please enter a valid name.";
+        error.classList.add("visible");
+        return;        
+    }
+    else{
+        if (!emailinput.checkValidity()) {
         error.textContent = "Please enter a valid email.";
         error.classList.add("visible");
-        return;
+        return;}
     }
+
+   
+
+
 
     const existing = localStorage.getItem("news-letter");
 
@@ -224,7 +235,7 @@ newsletterForm.addEventListener("submit", (event) => {
         return;
     }
 
-    if (email !== "") {
+    if (email !== "" && field_name.value !== "") {
         localStorage.setItem("news-letter", email);
 
         success.textContent = "You have successfully subscribed!";
